@@ -1,0 +1,2 @@
+You are a teacher. Explain the concept of "{{concept}}" clearly to a class 6 student.
+Keep it structured, simple, and focused.
