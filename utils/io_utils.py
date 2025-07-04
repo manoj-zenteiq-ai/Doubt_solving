@@ -10,7 +10,7 @@ def format_prompt(template: str, values: dict) -> str:
         template = template.replace(f"{{{{{key}}}}}", str(val))
     return template
 
-def log_doubt(concept: str, question: str, answer: str, path="/home/kunjanmanoj/Desktop/Doubts_SkolarX/ai_teacher_student/data/doubt_log.jsonl"):
+def log_doubt(concept: str, question: str, answer: str, path="data/doubt_log.jsonl"):
     log = {
         "concept": concept,
         "question": question,

@@ -8,7 +8,7 @@ import json
 tokenizer, model = load_tinyllama_model()
 
 # Load concepts
-with open("/home/kunjanmanoj/Desktop/Doubts_SkolarX/ai_teacher_student/data/concept_data.json") as f:
+with open("data/concept_data.json") as f:
     concepts = json.load(f)
 
 for concept in concepts:
